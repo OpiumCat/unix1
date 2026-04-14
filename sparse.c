@@ -8,7 +8,7 @@
 #include <getopt.h>
 
 int main(int argc, char *argv[]) {
-    const int block_size = 4096;
+    int block_size = 4096;
     int opt;
 
     while ((opt = getopt(argc, argv, "b:")) != -1) {
